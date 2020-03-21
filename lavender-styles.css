@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page {
+    background-color: #E6E6FA;
+    padding: 40px;
+}
+
+.main-heading {
+    color: #483D8B;
+    font-size: 36pt;
+}
+
+.des1 {
+    margin-bottom: 20px;
+    color: #362E69;
+}
+
+.note {
+    margin-bottom: 20px;
+    color: #362E69;
+}
+
+.text {
+    color: #362E69;
+    padding-bottom: 20px;
+}
+ 
+.general {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar {
+    position: relative;
+    background-color: #F1F1FB;
+    border: 1px solid #141437;
+    border-color: #B7B7C4;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.head0 {
+    color: #362E69;
+    font-size: 18pt;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.photo {
+    background-color: #C9C9E6;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+a, figure {
+    display: inline-block;
+}
+
+figure {
+    position: relative;
+    padding: 5px;
+}
+
+figcaption {
+    position: absolute;
+    color: #101046;
+    background-color: #C9C9E6;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    font-size: 10pt;
+    text-align: center;
+    margin-bottom: 10px; 
+    top: -1px;
+}
+
+.head1 {
+    color: #101046;
+    font-size: 15pt;
+    text-align: center;
+    font-weight: bold;
+    background-color: #BCBCE5;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.classn {
+    color: #362E69;
+    padding: 2px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.head1-note {
+    text-align: center;
+    font-style: italic;
+}
+
+.synonyms {
+    color: #362E69;
+    padding-left: 20px;
+}
+
+.sub-heading{
+    font-size: 28px;
+    color: #101046;
+    margin-bottom: 10px;
+}
+
+.cultivation {
+    display: flex;
+}
+
+.photo-grid-container {
+    display: flex;
+}
+
